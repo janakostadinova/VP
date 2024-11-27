@@ -1,8 +1,9 @@
-package mk.finki.ukim.mk.lab.service;
+package mk.finki.ukim.mk.lab.service.impl;
 
 import lombok.AllArgsConstructor;
 import mk.finki.ukim.mk.lab.model.Artist;
 import mk.finki.ukim.mk.lab.repository.ArtistRepository;
+import mk.finki.ukim.mk.lab.service.ArtistService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

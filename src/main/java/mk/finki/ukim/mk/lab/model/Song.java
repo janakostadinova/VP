@@ -12,13 +12,16 @@ public class Song {
     String trackId;
     String title;
     String genre;
-    int releaseYear;
+    String releaseYear;
     List<Artist> performers = new ArrayList<>();
+    private Long id;
+    private Album album;
 
-    public Song(String trackId, String title, String genre, int releaseYear) {
+    public Song(String trackId, String title, String genre, String releaseYear) {
         this.trackId = trackId;
         this.title = title;
         this.genre = genre;
         this.releaseYear = releaseYear;
+        this.id = (long) (Math.random() * 1000);
     }
 }
